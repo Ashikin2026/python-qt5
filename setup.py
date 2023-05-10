@@ -4,7 +4,7 @@ import platform
 
 from setuptools import setup, find_packages
 
-import util
+import TFODCourse.util as util
 
 if os.name != "nt":
     print("""
